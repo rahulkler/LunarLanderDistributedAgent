@@ -16,10 +16,10 @@ source ~/.bashrc
 
 
 # Dependencies for Gym
-sudo apt-get swig gfortran
+sudo apt-get install swig gfortran
 
 # Dependencies for Torch
-sudo apt-get libopenblas-dev libblas-dev libopenmpi-dev libomp-dev m4 cmake cython python3-dev python3-yaml python3-setuptools python3-pip
+sudo apt-get install libopenblas-dev libblas-dev libopenmpi-dev libomp-dev m4 cmake cython python3-dev python3-yaml python3-setuptools python3-pip
 
 # Install Python libraries
 sudo -H pip install future
