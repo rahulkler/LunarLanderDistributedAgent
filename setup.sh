@@ -24,8 +24,8 @@ apt-get install libopenblas-dev libblas-dev libopenmpi-dev libomp-dev m4 cmake c
 # Install Python libraries
 pip install future
 pip install --upgrade setuptools
-pip install pyserial gym box2d-py numpy mysql-connector-python matplotlib
-pip install pandas
+pip install pyserial gym box2d-py numpy mysql-connector-python
+pip install imutils matplotlib pandas
 pip install tapy
 pip install Cython
 
